@@ -1,0 +1,17 @@
+[general]
+name=SLICE
+qgisMinimumVersion=3.28
+description=Stream Length-gradient (SL) index from a DEM by consecutive contour pairs
+about=SLICE computes the Stream Length-gradient (SL) index along channels extracted from a DEM, using a progressive longest-first network builder. Intended for active-tectonics and tectonic-geomorphology work. Requires the GRASS provider (r.watershed, r.stream.extract) and GDAL (gdal:contour), both bundled with QGIS.
+version=1.0
+author=Divyanshu
+email=divyanshup137@gmail.com
+category=Raster
+tags=SL index,stream length gradient,tectonic geomorphology,geomorphometry,knickpoint,DEM,tectonics,active tectonics
+hasProcessingProvider=yes
+license=GPL-3.0
+homepage=https://github.com/<user>/slice
+repository=https://github.com/<user>/slice
+tracker=https://github.com/<user>/slice/issues
+experimental=False
+deprecated=False
